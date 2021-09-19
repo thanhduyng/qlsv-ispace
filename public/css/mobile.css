@@ -1,0 +1,418 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif
+}
+
+body,
+html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+/* css footer login  */
+footer {
+    /* position: fixed;
+    bottom: 0; */
+    height: 120px;
+}
+
+.footerpd {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 50px;
+}
+
+.footerp {
+    color: #fff;
+    font-size: 14px;
+}
+/* end css footer login */
+
+.anhlogin{
+    background-image: url(/images/logo.png);
+    margin-left: -80px;
+    width: 142px;
+    height: 62px;
+}
+
+.w3-top {
+    top: auto;
+}
+
+.w3-top,
+.w3-bottom {
+    position: absolute !important;
+
+}
+
+.w3-bar .w3-button {
+    padding: 16px;
+}
+
+.w3-white,
+.w3-hover-white:hover {
+    color: #fff !important;
+    background-color: #D90000 !important;
+}
+
+.w3-white, .w3-hover-white:hover {
+    color: #000!important;
+    background-color: #d90000!important;
+}
+
+.w3-black,
+.w3-hover-black:hover {
+    color: #fff !important;
+    background-color: #D90000 !important;
+}
+
+.w3-button:hover {
+    color: #fff !important;
+    background-color: #D90000 !important;
+}
+
+.w3-bar .w3-bar-item {
+    font-size: 17px;
+}
+
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:focus,
+.dropdown-menu>.active>a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #D90000;
+    outline: 0;
+}
+
+.dropdown-menu {
+    background-color: #D90000;
+}
+
+.anh {
+  display: none
+}
+
+.logo {
+    height: 130px;
+    background-image: url(images/aspace.jpg);
+}
+
+.plus-them{
+    margin-left: 350px; 
+    margin-top: 23px; 
+    display: none;
+}
+.plus-index{
+    display: none;
+}
+
+/* border tròn */
+.btn-circle {
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    padding: 3px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+/* end border tròn */
+
+
+/* màn hình sinh viên */
+    .cao40{
+        margin-top: 40px;
+    }
+    .cao40{
+        margin-top: 20px;
+    }
+
+    .lopsv{
+        width: 38%;
+        margin-top: 20px; 
+        margin-left: 20px;
+    }
+
+    .loplabel{
+        margin-top: 55px; 
+        margin-left: 30px;
+    }
+
+    .lichlabel{
+        margin-top: 60px; 
+        margin-left: 30px;
+    }
+
+    .lichsv{
+        width: 43%;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    .phepsv{
+        width: 40%;
+        margin-left: 10px;
+        margin-top: 35px;
+    }
+
+    .pheplabel{
+        margin-top: 55px; 
+        margin-left: 5px;
+    }
+
+    .thongbaosv{
+        width: 39%;
+        margin-left: 20px; 
+        margin-top: 25px;
+    }
+
+    .thongbaolabel{
+        margin-top: 55px; 
+        margin-left: 26px;
+    }
+
+/* end màn hình sinh viên */
+
+/* màn hình giảng viên */
+    .lopgv{
+        width: 32%; 
+        margin-top: 16px; 
+        margin-left: 20px;
+    }
+
+    .thongbaogv{
+        width: 32%; 
+        margin-top: 16px; 
+        margin-left: 20px;
+    }
+    .lopgvlabel{
+        margin-top: 55px; 
+        margin-left: 30px;
+    }
+    .thongbaogvlabel{
+        margin-top: 55px; 
+        margin-left: 23px;
+    }
+
+    .phepgvlabel{
+        margin-top: 55px; 
+        margin-left: 18px;
+    }
+/*end  màn hình giảng viên */
+
+/* màn hình quản trị */
+    .diemthipdt{
+        width: 36%; 
+        margin-top: -60px; 
+        margin-bottom: -62px; 
+        margin-left: 10px;
+    }
+    .diemthipdtlabel{
+        margin-top: 55px; 
+        margin-left: 36px;
+    }
+    .danhgiapdt{
+        width: 30%; 
+        margin-left: 15px;
+    }
+    .danhgiapdtlabel{
+        margin-top: 55px; 
+        margin-left: 30px;
+    }
+    .worktaskpdt{
+        width: 30%; 
+        margin-left: 10px;
+    }
+
+    .worktaskpdtlabel{
+        margin-top: 55px; 
+        margin-left: 18px;
+    }
+    .lophocpdt{
+        width: 30%; 
+        margin-top: 63px; 
+        margin-left: 20px;
+    }
+    .lophocpdtlabel{
+        margin-top: 55px; 
+        margin-left: 30px;
+    }
+    .thongbaopdt{
+        width: 32%; 
+        margin-top: 61px;
+        margin-left: 10px
+        
+    }
+    .thongbaopdtlabel{
+        margin-top: 55px; 
+        margin-left: 18px
+    }
+/* end màn hình quản trị */
+
+@media (max-width: 880px) {
+
+    footer {
+        position: absolute;
+    }
+
+/* màn hình sinh viên */
+    .lopsv{
+        width: 75%;
+    }
+
+    .loplabel{
+        margin-top: 64px; 
+    }
+    .lichsv{
+        margin-top: 12px;
+        width: 86%;
+    }
+
+    .lichlabel{
+        margin-top: 58px;
+        margin-left: 40px;
+    }
+
+    .phepsv{
+        width: 81%;
+        margin-top: 32px!important;
+    }
+    .pheplabel{
+        margin-top: 65px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+    .thongbaosv{
+        width: 78%;
+        /* 
+        margin-left: -272px; */
+    }
+    /* .thongbaolabel{
+        margin-top: 105px;
+        margin-left: -265px;
+    } */
+
+/* end màn hình sinh viên */
+
+/* view điemanh */
+    .sobuoivang{
+        margin-left: 296px !important;
+    }
+
+/* end view điemanh */
+
+
+/* màn hình giảng viên */
+
+/* end màn hình giảng viên */
+
+    .width {
+        width: 100%;
+    }
+    
+    img {
+        margin-top: 11px;
+        width: 19%;
+        margin-left: -40px;
+        margin-bottom: -50px;
+        background-color: #fff;
+    }
+
+    .anh{
+        display: flex;
+        width: 110%;
+      
+    }
+
+    .asc {
+        margin-left: 0px;
+
+    }
+
+    .logo {
+        display: none;
+    }
+   .row{
+     
+   }
+   .plus-them{
+        width: 10px;
+        margin-left: 330px; 
+        margin-bottom: -37px;
+        color: #fff;
+        display: flex;
+    }
+    .plus-index{
+        display: flex;
+        margin-bottom: -39px;
+        margin-left: 19px;
+        margin-top: 19px;
+    }
+    .w3-top,
+    .w3-bottom {
+        position: fixed !important;
+
+    }
+    .w3-white, .w3-hover-white:hover {
+        top: 0;
+        color: #fff !important;
+        background-color: #D90000 !important;
+        position: fixed;
+    }
+    h3{
+        display: none;
+    }
+
+    .anhlogin{
+        margin-left: -223px;
+    }
+/*  */
+    .lopgv{
+        width: 70%; 
+      
+    }
+    .thongbaogv{
+        width: 70%; 
+    }
+
+    /* màn hình quản trị */
+    .diemthipdt{
+        width: 90%; 
+        margin-top: 5px; 
+    }
+ 
+    .danhgiapdt{
+        width: 75%; 
+    }
+   
+    .worktaskpdt{
+        width: 75%; 
+    }
+
+    .lophocpdt{
+        width: 70%; 
+        margin-top: 16px; 
+
+    }
+  
+    .thongbaopdt{
+        width: 75%; 
+        margin-top: 10px;
+    }
+/* end màn hình quản trị */
+}         
+
+@media (max-width: 1289px) {
+    .phepsv{
+        margin-top: 51px;
+    }
+    .pheplabel{
+
+    }
+}
